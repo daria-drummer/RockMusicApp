@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rock Music App</string>
+    <string name="rolling_stones">Rolling Stones</string>
+    <string name="kiss">KISS</string>
+    <string name="guns_and_roses">Guns N’ Roses</string>
+    <string name="the_who">The Who</string>
+    <string name="ac_dc">AC/DC</string>
+    <string name="van_halen">Van Halen</string>
+</resources>

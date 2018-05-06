@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Layout for a single list item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_horizontal_margin">
+
+    <TextView
+        android:id="@+id/song_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Satisfaction"/>
+
+    <TextView
+        android:id="@+id/album_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Out of Our Heads (1965)"
+        android:textColor="@android:color/darker_gray"/>
+
+</LinearLayout>
